@@ -1,179 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Basic Page Information -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Website Title -->
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Lamin Kinteh | Personal Portfolio</title>
 
-    <!-- CSS File -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
 </head>
+
 <body>
 
-    <!-- =========================
-         HEADER
-    ========================== -->
-    <header>
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="container">
+
         <nav>
-            <h2 class="logo">Lamin Kinteh</h2>
 
-            <ul>
+            <h2 class="logo">
+                Lamin<span>.</span>
+            </h2>
+
+            <ul class="nav-links">
+
                 <li><a href="#home">Home</a></li>
+
                 <li><a href="#about">About</a></li>
+
                 <li><a href="#skills">Skills</a></li>
+
                 <li><a href="#projects">Projects</a></li>
+
                 <li><a href="#education">Education</a></li>
+
                 <li><a href="#contact">Contact</a></li>
-                
+
             </ul>
+
         </nav>
-    </header>
 
-    <!-- =========================
-         MAIN CONTENT
-    ========================== -->
-    <main>
+    </div>
 
-        <!-- HOME SECTION -->
-        <section id="home">
-            <h1>Hello, I'm Lamin Kinteh</h1>
+</header>
 
-            <h3>ICT Professional | IT Support | Web Developer</h3>
+<!-- ================= HERO ================= -->
 
-            <p>
-                Welcome to my personal portfolio website where I showcase
-                my skills, projects, education, and professional journey.
+<section id="home" class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <p class="intro">
+                Hello, I'm
             </p>
 
-            <img src="./images/mainprofile.png" alt="Profile Picture" width="220">
+            <h1>
+                Lamin Kinteh
+            </h1>
 
-            <br><br>
-
-            <a href="assets/Lamin_Kinteh_CV.pdf" download>Download CV</a>
-        </section>
-
-        <!-- ABOUT SECTION -->
-        <section id="about">
-
-            <h2>About Me</h2>
+            <h2>
+                ICT Professional
+            </h2>
 
             <p>
-                I am an enthusiastic ICT professional with experience in
-                IT support, networking, web development, and database
-                design. I enjoy solving technical problems and
-                continuously improving my skills.
+
+                An aspiring Information Technology professional with
+                experience in IT support, networking,
+                web development and database design.
+
             </p>
 
-        </section>
+            <div class="hero-buttons">
 
-        <!-- SKILLS SECTION -->
-        <section id="skills">
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
 
-            <h2>My Skills</h2>
+                <a href="assets/cv.pdf"
+                   class="btn btn-outline"
+                   download>
+                    Download CV
+                </a>
 
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript (Learning)</li>
-                <li>Networking</li>
-                <li>Database Design</li>
-                <li>Microsoft Office</li>
-                <li>Windows Installation</li>
-                <li>IT Support</li>
-            </ul>
+            </div>
 
-        </section>
+        </div>
 
-        <!-- PROJECTS SECTION -->
-        <section id="projects">
+        <div class="hero-image">
 
-            <h2>Projects</h2>
+            <img src="images/profilePic.jpg"
+                 alt="Lamin Kinteh">
 
-            <article>
+        </div>
 
-                <h3>Student Registration System</h3>
+    </div>
 
-                <p>
-                    Designed a student registration database using ERD
-                    and database design principles.
-                </p>
+</section>
 
-            </article>
+<!-- ================= ABOUT ================= -->
 
-            <article>
+<section id="about">
 
-                <h3>Educational Web Game</h3>
+<div class="container">
 
-                <p>
-                    Developed an educational game using HTML and CSS
-                    for Grade 12 students.
-                </p>
+<h2>
+About Me
+</h2>
 
-            </article>
+<p>
 
-            <article>
+I am passionate about technology and enjoy building practical digital
+solutions.
 
-                <h3>School IT Support</h3>
+My interests include web development, networking,
+database design and IT support.
 
-                <p>
-                    Provided technical support, software installation,
-                    and troubleshooting services.
-                </p>
+I continuously learn new technologies to improve my professional skills.
 
-            </article>
+</p>
 
-        </section>
+</div>
 
-        <!-- EDUCATION SECTION -->
-        <section id="education">
+</section>
 
-            <h2>Education</h2>
+<!-- ================= SKILLS ================= -->
 
-            <ul>
+<section id="skills">
 
-                <li>BSc in Information Technology (Ongoing)</li>
+<div class="container">
 
-                <li>Diploma in ICT</li>
+<h2>
+Technical Skills
+</h2>
 
-                <li>Certificate in ICT</li>
+<div class="skills-grid">
 
-            </ul>
+<div class="card">HTML5</div>
 
-        </section>
+<div class="card">CSS3</div>
 
-        <!-- CONTACT SECTION -->
-        <section id="contact">
+<div class="card">JavaScript</div>
 
-            <h2>Contact Me</h2>
+<div class="card">Networking</div>
 
-            <p>Email: your@email.com</p>
+<div class="card">Database Design</div>
 
-            <p>Phone: +220 XXX XXX</p>
+<div class="card">Microsoft Office</div>
 
-            <p>Location: The Gambia</p>
+<div class="card">IT Support</div>
 
-            <p>GitHub: github.com/yourusername</p>
+<div class="card">Problem Solving</div>
 
-        </section>
+</div>
 
-    </main>
+</div>
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
-    <footer>
+</section>
 
-        <p>
-            © 2026 Lamin Kinteh. All Rights Reserved.
-        </p>
+<!-- ================= PROJECTS ================= -->
 
-    </footer>
+<section id="projects">
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+<div class="container">
+
+<h2>
+Projects
+</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<h3>
+Student Registration Database
+</h3>
+
+<p>
+
+Designed an ERD and relational database
+for student registration.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>
+Educational Web Game
+</h3>
+
+<p>
+
+Created an interactive educational game
+using HTML and CSS.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>
+School IT Support
+</h3>
+
+<p>
+
+Provided software installation,
+maintenance and troubleshooting.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education">
+
+<div class="container">
+
+<h2>
+Education
+</h2>
+
+<ul>
+
+<li>BSc Information Technology (Ongoing)</li>
+
+<li>Diploma in ICT</li>
+
+<li>Certificate in ICT</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+<div class="container">
+
+<h2>
+Contact Me
+</h2>
+
+<p>Email: your@email.com</p>
+
+<p>Phone: +220 XXX XXX</p>
+
+<p>Location: The Gambia</p>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Lamin Kinteh
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>

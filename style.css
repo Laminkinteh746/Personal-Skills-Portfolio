@@ -649,3 +649,117 @@ transform:translateY(0);
 }
 
 }
+
+/*=========================
+HAMBURGER
+=========================*/
+
+.hamburger{
+
+display:none;
+
+font-size:30px;
+
+cursor:pointer;
+
+color:#2563eb;
+
+}
+
+/*=========================
+ACTIVE NAV
+=========================*/
+
+.active{
+
+color:#2563eb!important;
+
+font-weight:bold;
+
+}
+
+/*=========================
+BACK TO TOP
+=========================*/
+
+#topBtn{
+
+position:fixed;
+
+bottom:30px;
+
+right:30px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:15px;
+
+border-radius:50%;
+
+cursor:pointer;
+
+display:none;
+
+font-size:18px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+}
+
+/*=========================
+DARK MODE
+=========================*/
+
+#themeToggle{
+
+position:fixed;
+
+bottom:100px;
+
+right:30px;
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+border:none;
+
+cursor:pointer;
+
+font-size:22px;
+
+background:#2563eb;
+
+color:white;
+
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+}
+
+body.dark{
+
+background:#0f172a;
+
+color:white;
+
+}
+
+body.dark header{
+
+background:#1e293b;
+
+}
+
+body.dark .card,
+
+body.dark .project-card,
+
+body.dark .timeline-item,
+
+body.dark

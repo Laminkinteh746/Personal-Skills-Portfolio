@@ -1011,7 +1011,7 @@ transform:translateY(0);
    MOBILE NAVIGATION
 ========================= */
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 
     nav {
         height: 70px;
